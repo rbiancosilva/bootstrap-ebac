@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body > header {
+    background-color: #fff;
+    border-bottom: 1px solid;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+
+.navbar-brand img {
+    height: 20px;
+}
+
+header .container {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.nav-link {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#header-btn:hover {
+    background-color: rgb(171, 199, 235);
+}
+
+#header-btn {
+    border: none;
+    background-color: none;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-height: 300px; 
+    width: 100%;
+    object-fit: cover;
+}
+
+#main-carousel {
+    border-bottom: 1px solid;
+    height: 300px;
+}
+
+#card-col {
+    padding-top: 20px;
+}
+
+#projetos {
+    padding-top: 56px;
+}
+
+.row {
+    border-top: 1px solid black;
+}
+
+.card {
+    height: 500px;
+}
+
+.card img {
+    height: 250px; 
+    width: 100%;
+    object-fit: cover;
+}
+
+#duvidas, #sobre {
+    padding-top: 56px;
+}
+
+h3 {
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.accordion {
+    border-top: 1px solid black;
+    padding-top: 20px; 
+}
+
+#sobre-nos {
+    padding: 56px 0 15px 0;
+}
+
+#sobre-nos .container div {
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+@media screen and (max-width: 770px) {
+    header .container {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #header-btn {
+        margin-bottom: 10px;
+    }
+
+    #main-carousel {
+        border-bottom: none;
+        height: 200px;
+    }
+
+    .carousel-item img {
+        max-height: 200px; 
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .disappear {
+        display: none;
+    }
+
+    #header-btn {
+        margin-top: 10px;
+        max-width: 100px;
+    }
+
+    #main-carousel {
+        border-bottom: none;
+        height: 100px;
+    }
+
+    .carousel-item img {
+        max-height: 100px; 
+        width: 100%;
+        object-fit: cover;
+    }
+}

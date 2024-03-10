@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-EBAC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+                <div class="navbar">
+                    <nav>
+                        <ul class="nav nav-pills">
+                            <li class="nav-item">
+                                <a class="navbar-brand nav-link m-0 p-0" href="#main-header"><img src="logo-header.png" alt=""></a>
+                            </li>
+                            <li class="nav-item disappear">
+                                <a class="nav-link" href="#projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item disappear">
+                                <a class="nav-link" href="#duvidas">Dúvidas</a>
+                            </li>
+                            <li class="nav-item disappear">
+                                <a class="nav-link" href="#sobre-nos">Sobre nós</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <button id="header-btn">Entre em contato</button>
+        </div>
+    </header>
+
+    <section id="main-carousel">
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel inner">
+                <div  data-bs-interval="3200" class="carousel-item active">
+                    <img class="w-100" src="imagens/code.jpg" alt="">
+                </div>
+                <div data-bs-interval="3200" class="carousel-item">
+                    <img class="w-100" src="imagens/microsistemas.jpg" alt="">
+                </div>
+                <div data-bs-interval="3200" class="carousel-item">
+                    <img class="w-100" src="imagens/switch.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h3>Projetos</h3>
+            <div class="row">
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Pote de ração automatizado
+                        </header>
+                        <img src="imagens/pote.jpg" alt="">
+                        <div class="card-body">
+                            Um pote de ração para animais de estimação com automatização de horários, porções, tipos e variedades de ração.
+                        </div>
+                        <footer class="card-footer">
+                            Finalizado em 2019
+                        </footer>
+                    </div>
+                </div>
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Placa de prototipagem
+                        </header>
+                        <img src="imagens/arduino.jpg" alt="">
+                        <div class="card-body">
+                            Uma placa de prototipagem com modelo e base brasileiros. Feita com o intuito de ser custo benefício e de alta qualidade.
+                        </div>
+                        <footer class="card-footer">
+                            Finalizado em 2020
+                        </footer>
+                    </div>
+                </div>
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Infraestrutura implementada com nuvem
+                        </header>
+                        <img src="imagens/redenuvem.jpg" alt="">
+                        <div class="card-body">
+                            Implementação de nuvem em uma rede com infraestrutura majoritariamente local. Conexão entre sevidores locais e em nuvem.
+                        </div>
+                        <footer class="card-footer">
+                            Finalizado em 2021
+                        </footer>
+                    </div>
+                </div>
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Aplicativo para deficientes visuais
+                        </header>
+                        <img src="imagens/aplicativo.jpg" alt="">
+                        <div class="card-body">
+                            Aplicativo para auxiliar deficientes visuais no uso de mercados digitais. Utilizado principalmente para contrastar e destacar informações relevantes.
+                        </div>
+                        <footer class="card-footer">
+                            Finalizado em 2021
+                        </footer>
+                    </div>
+                </div>
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Botão para faixa de pedestres
+                        </header>
+                        <img src="imagens/poste.jpg" alt="">
+                        <div class="card-body">
+                            Implementação de botões em postes para facilitar solicitações de trânsito. Implementado com o sistema de sinais, facilitando a contagem de tempo.
+                        </div>
+                        <footer class="card-footer">
+                            Em andamento
+                        </footer>
+                    </div>
+                </div>
+                <div id="card-col" class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <header class="card-header">
+                            Relógio gerador de relatórios
+                        </header>
+                        <img src="imagens/relogio.jpg" alt="">
+                        <div class="card-body">
+                            Software integrado com relógio smart para ler e interpretar as informações obtidas pelo mesmo. Usado para relatórios periódicos de saúde do usuário.
+                        </div>
+                        <footer class="card-footer">
+                            Em andamento
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="duvidas">
+        <div class="container">
+            <h3>Dúvidas</h3>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion1">Qual o objetivo da Inotech?</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="accordion1">
+                        <div class="accordion-body">
+                            A Inotech foi fundada com o principal objetivo de fornecer auxílio, suporte e inovação dentro da área de tecnologia. Trabalhando sempre em direção à ideia proposta pelo cliente, buscando trazer uma combinação de qualidade e custo-benefício.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#accordion2">Com que tecnologias a Inotech trabalha?</button>
+                    </div>
+                    <div class="accordion-collapse collapse" id="accordion2">
+                        <div class="accordion-body">
+                            A Inotech trabalha com tecnologias de desenvolvimento para empresas de pequeno, médio e grande porte. Temos profissionais das mais variadas áreas: Robótica, automação, desenvolvimento WEB, gerência de projetos, e muito mais.
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button"  data-bs-toggle="collapse" data-bs-target="#accordion3">Quando a Inotech foi fundada?</button>
+                        </div>
+                        <div class="accordion-collapse collapse" id="accordion3">
+                            <div class="accordion-body">
+                                A Inotech foi fundada em 2018 por colegas de classe da Universidade São Francisco, à principio com o intuito de fornecer serviços que auxiliassem seus colegas de classe com os estudos, porém acabou se tornando um negócio estruturado e ramificado na área da tecnologia.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-nos">
+        <div class="container">
+            <h3>Sobre nós</h3>
+            <div>
+                <p>A InoTech é uma empresa de tecnologia dedicada a fornecer soluções inovadoras para empresas e indivíduos. Fundada com o objetivo de oferecer produtos e serviços de alta qualidade a preços acessíveis, buscamos constantemente a excelência em tudo o que fazemos.</p>
+                <p>Nossa equipe é composta por profissionais altamente qualificados e experientes, apaixonados por tecnologia e comprometidos em atender às necessidades e expectativas de nossos clientes. Estamos empenhados em proporcionar uma experiência excepcional, desde o primeiro contato até a entrega final do projeto.</p>
+                <p>Na InoTech, acreditamos que a tecnologia tem o poder de transformar negócios e melhorar a vida das pessoas. Estamos constantemente explorando novas oportunidades e desenvolvendo soluções inovadoras para enfrentar os desafios do mundo moderno.</p>
+                <p>Se você está procurando uma parceria confiável e eficiente para ajudar a impulsionar o seu negócio, entre em contato conosco hoje mesmo e descubra como a InoTech pode ajudar você a alcançar seus objetivos.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>
